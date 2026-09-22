@@ -1,14 +1,73 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# Social links and IDs.
+#
+# In al-folio v1.x these live here, NOT in _config.yml. (If you follow an older
+# tutorial that says to set github_username in _config.yml, the icon won't appear.)
+#
+# Icons render in the order the keys appear below.
+
+email: xueyu@stanford.edu
+scholar_userid: -yFgrd8AAAAJ # from the Scholar link in your CV
+orcid_id: 0000-0002-6051-3241
+github_username: icesnowsun
+cv_pdf: /assets/pdf/cv.pdf # leading slash and full path, unlike most other paths
+rss_icon: false # no blog; set true if you add one later
+
+# linkedin_username:   # your CV mentions LinkedIn outreach for the Quantitative
+#                      # Staff Network — add your handle here if you want the icon
+# work_url:            # your Stanford Nephrology profile page, once you have one
+
+# ---- Other supported keys ------------------------------------------------
+# The full list the jekyll-socials plugin understands. Uncomment what applies;
+# anything not listed needs the custom_social block at the bottom.
+#
+# academia_edu:
+#   organization: stanford
+#   username: XueYu
+# acm_id:
+# arxiv_id:
+# bluesky_url:
+# blogger_url:
+# dblp_url:
+# discord_id:
+# facebook_id:
+# flickr_id:
+# gitlab_username:
+# hal_id:
+# ieee_id:
+# inspirehep_id:
+# instagram_id:
+# kaggle_id:
+# keybase_username:
+# lastfm_id:
+# lattes_id:
+# leetcode_id:
+# letterboxd_id:
+# mastodon_username:
+# medium_username:
+# osf_id:
+# pinterest_id:
+# publons_id:
+# quora_username:
+# research_gate_profile:
+# scopus_id:
+# semanticscholar_id:
+# spotify_id:
+# stackoverflow_id:
+# strava_userid:
+# telegram_username:
+# unsplash_id:
+# wechat_username:
+# whatsapp_number:
+# wikidata_id:
+# wikipedia_id:
+# x_username:
+# youtube_id:
+# zotero_username:
+
+# ---- Anything else -------------------------------------------------------
+# For a profile with no dedicated key. PubMed is the obvious one for your field:
+#
+# custom_social:
+#   logo: ai ai-pubmed
+#   title: PubMed
+#   url: https://pubmed.ncbi.nlm.nih.gov/?term=Yu+Xue+AND+nephrology

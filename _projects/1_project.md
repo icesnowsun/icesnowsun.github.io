@@ -1,81 +1,59 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Modeling rapid kidney decline in CKDu
+description: Which statistical model you choose changes who counts as a rapid decliner.
+img: assets/img/project_ckdu.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Chronic kidney disease of uncertain etiology (CKDu) affects agricultural
+communities in Sri Lanka without the usual drivers of kidney disease —
+diabetes and hypertension — to explain it. Identifying who is declining
+rapidly is the first step toward understanding why, and it turns out to depend
+uncomfortably on how you ask.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## The question
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+"Rapid decline" sounds like an observation. It is actually a modeling choice.
+In a cohort of 292 Sri Lankan participants I compared three approaches to the
+same eGFR trajectories:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Ordinary least squares** — a slope per participant, fit independently
+- **Linear mixed-effects** — participant slopes shrunk toward the population mean
+- **Latent class mixed-effects** — participants sorted into distinct trajectory groups
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Each gives a defensible answer. They do not give the same answer, and the
+disagreement is not random noise: the models differ systematically in which
+participants they flag, because they make different assumptions about whether
+decline is a continuum or a set of types.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Approach
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Analyses were run pooled and stratified by sex, in R. Beyond the headline
+comparison, two things needed care:
 
-{% raw %}
+- **Censoring.** Participants enter and leave observation at different points,
+  and the shape of that censoring interacts with slope estimation in ways that
+  can manufacture apparent rapid decline.
+- **Classification disagreement.** Rather than picking a winner, the useful
+  output was characterizing *where* the methods diverge and what kind of
+  participant falls into the gap.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+I planned and validated the analyses jointly with a faculty mentor and wrote
+the first-author poster {% cite yu2024rapiddecline %}, presented at the Joint
+Statistical Meetings in 2024 and at the Stanford SRP Poster Symposium.
 
-{% endraw %}
+## Related work in this cohort
+
+The same Sri Lankan cohort supports work on natural history and risk factors
+{% cite hewavitharana2023ckdu %}, and a case-control study of drinking water and
+agricultural exposures among women in endemic and non-endemic regions
+{% cite contreras2026water %}.
+
+## What I take from it
+
+A single reported definition of rapid decline hides a decision that changes the
+answer. Reporting the sensitivity of a finding to model class is cheap, and in
+this setting it is more informative than the point estimate.
