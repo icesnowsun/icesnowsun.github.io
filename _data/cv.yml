@@ -78,7 +78,13 @@ cv:
         end_date: 2017
 
     Mentoring and Statistical Consulting:
-      - name: Mentoring
+      - name: Stanford REACH post-baccalaureate research program
+        summary: >-
+          Mentor in Racial Equity to Advance a Community of Health (REACH). Trained a
+          pre-medical student from Morehouse School of Medicine and a biology student
+          from UCLA/Charles Drew during summer research programs.
+
+      - name: Student research mentoring
         summary: >-
           Mentored undergraduate researchers from the National University of Singapore
           and master's students from UC San Diego and Stanford Epidemiology. Mentored
@@ -94,14 +100,17 @@ cv:
     Leadership and Service:
       - company: Quantitative Staff Network
         position: Chair, Communications Subcommittee
+        url: https://www.quantitativestaffnetwork.org/
         start_date: 2024-11
         end_date: present
         highlights:
           - Led newsletter development, LinkedIn outreach, survey design, member engagement, and mentorship program planning.
           - Helped organize career workshops and networking events.
+          - "Website: [quantitativestaffnetwork.org](https://www.quantitativestaffnetwork.org/)"
 
       - company: Biostats4You
         position: Reviewer of biostatistics educational resources
+        url: https://biostats4you.umn.edu/founders-board-directors-and-reviewers
         start_date: 2023
         end_date: 2023
 
