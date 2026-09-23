@@ -17,10 +17,25 @@ because they could not stay home.
 
 A pilot established that SARS-CoV-2 screening during routine hemodialysis was
 feasible and acceptable to patients {% cite anand2023feasibility %}. That scaled
-into a nationwide cluster randomized trial of surveillance testing acceptance
-{% cite montezrath2024acceptance %}. Separately, we used wastewater metrics as a
-population-level tracking signal for COVID-19 across the U.S.
-{% cite varkila2023wastewater %}.
+into a nationwide cluster randomized trial across 62 US Renal Care dialysis
+centers {% cite montezrath2024acceptance %}, conducted under the NIH
+[RADx-UP](https://radx-up.org/about/) initiative, whose aim is improving access
+to COVID-19 testing in underserved communities.
+
+My role on the trial was the weekly data pipeline — cleaning and processing
+testing data, building the tables and figures clinicians actually read, handling
+missing data by multiple imputation with chained equations, and using
+generalized estimating equations to account for clustering by facility.
+
+Separately, we asked whether wastewater could substitute for case reporting once
+at-home testing made official case counts unreliable
+{% cite varkila2023wastewater %}. Using public data from more than 250 U.S.
+counties, we found that *wastewater percentile* — a county’s current
+concentration relative to its own historic peak — predicted high case rates with
+an AUC of 0.95 in early 2022, with a threshold around the 51st percentile
+maximizing sensitivity and specificity. Performance degraded in later quarters,
+which is itself informative: as reporting decayed, the wastewater signal and the
+official counts diverged.
 
 A preprint examines whether the *time of day* a patient receives a SARS-CoV-2
 vaccination is associated with their antibody response
