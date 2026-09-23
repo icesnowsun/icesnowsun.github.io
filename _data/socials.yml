@@ -9,8 +9,11 @@ email: xueyu@stanford.edu
 scholar_userid: -yFgrd8AAAAJ # from the Scholar link in your CV
 orcid_id: 0000-0002-6051-3241
 github_username: icesnowsun
+x_username: Snow_XueYu
 cv_pdf: /assets/pdf/cv.pdf # leading slash and full path, unlike most other paths
-rss_icon: false # no blog; set true if you add one later
+
+# rss_icon intentionally omitted. RSS is a subscription feed for a blog; with no
+# blog the icon links to an empty feed. Set `rss_icon: true` if you ever add one.
 
 # linkedin_username:   # your CV mentions LinkedIn outreach for the Quantitative
 #                      # Staff Network — add your handle here if you want the icon
