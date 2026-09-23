@@ -81,16 +81,20 @@ one preprint, and two first-author conference posters.
 
 ### Mentoring
 
-**Stanford REACH post-baccalaureate research program.** Mentor in Racial Equity to
-Advance a Community of Health. Trained a pre-medical student from Morehouse School
-of Medicine and a biology student from UCLA/Charles Drew during summer research
-programs.
+**Stanford REACH-HBMC post-baccalaureate research program.** Mentor in Racial
+Equity to Advance a Community of Health. Provided statistical mentorship to Josiah
+Thule (Morehouse School of Medicine, M.D. Class of 2026), who developed his
+analytic plan, interpreted results, and drafted a manuscript published in the
+*Journal of Renal Nutrition* (2024). Named in the program's published reflections
+by Glenn M. Chertow, MD, MPH —
+[Stanford Medicine feature](https://medicine.stanford.edu/news/stories/2024/04/HBMC-reflections-summer2023.html).
+Also mentored a second-year biology student from UCLA/Charles Drew University of
+Medicine.
 
 **Student research supervision.** Mentored undergraduate researchers from the
 National University of Singapore and master's students from UC San Diego and
-Stanford Epidemiology. Supervised student research on MyPlate awareness and diet
-quality in CKD, which became a coauthored *Journal of Renal Nutrition* article,
-and work on AI prediction of CKDu progression reported in the WCN 2026 abstract.
+Stanford Epidemiology. Also supervised work on AI prediction of CKDu progression,
+reported in the WCN 2026 abstract.
 
 **Statistical consulting.** Twice-monthly biostatistics office hours since October
 2022; consulting for Q2BI and for clinical and statistical teams in Nanjing, China.
