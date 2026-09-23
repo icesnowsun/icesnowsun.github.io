@@ -44,10 +44,11 @@ patients differently, and which answer you report matters.
 Alongside the applied work I build tools and workflows that let non-statisticians
 do more for themselves: reusable R and SAS functions for baseline tables and
 missing-data summaries, and a web-based flowchart tool for clinical fellows
-without coding experience. I hold twice-monthly biostatistics office hours, chair
-the communications subcommittee of the Quantitative Staff Network, and mentor
-undergraduate and master's students. More recently I have been working on the
-responsible evaluation of AI in healthcare.
+without coding experience. I mentor students through Stanford's REACH
+post-baccalaureate research program and chair the communications subcommittee of
+the [Quantitative Staff Network](https://www.quantitativestaffnetwork.org/).
+More recently I have been working on the responsible evaluation of AI in
+healthcare.
 
 I trained in biostatistics at Georgetown and in financial mathematics at Hong
 Kong Baptist University, and worked at the University of Mississippi Medical
