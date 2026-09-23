@@ -64,3 +64,11 @@ This work predates my move to Stanford and represents my first sustained
 first-author contribution. The methodological habit it established — looking for
 an external model to compare against, and testing whether a small subgroup is
 driving a result — carried into the kidney work that followed.
+
+---
+
+<p style="font-size: 0.8rem; opacity: 0.7;">
+Header illustration: Darryl Leja,
+<a href="https://www.flickr.com/photos/genomegov/27249799083/">National Human Genome Research Institute (NHGRI)</a>,
+<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.
+</p>
