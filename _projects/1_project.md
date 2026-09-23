@@ -17,8 +17,9 @@ uncomfortably on how you ask.
 ## The question
 
 "Rapid decline" sounds like an observation. It is actually a modeling choice.
-In a cohort of 292 Sri Lankan participants I compared three approaches to the
-same eGFR trajectories:
+In the Kidney Progression Project (KIPP) — a cohort of 292 individuals with CKDu
+in an endemic area of Sri Lanka, followed over three years — I compared three
+approaches to the same eGFR trajectories:
 
 - **Ordinary least squares** — a slope per participant, fit independently
 - **Linear mixed-effects** — participant slopes shrunk toward the population mean
@@ -48,12 +49,20 @@ Statistical Meetings in 2024 and at the Stanford SRP Poster Symposium.
 ## Related work in this cohort
 
 The same Sri Lankan cohort supports work on natural history and risk factors
-{% cite hewavitharana2023ckdu %}, and a case-control study of drinking water and
-agricultural exposures among women in endemic and non-endemic regions
-{% cite contreras2026water %}.
+{% cite hewavitharana2023ckdu %} — which found the overall rate of decline slow,
+resembling other non-albuminuric chronic kidney disease, with no clear
+biochemical marker such as hypokalemia or hyperuricemia — and a case-control
+study of drinking water and agricultural exposures among women in endemic and
+non-endemic regions {% cite contreras2026water %}.
+
+The wider project is a collaboration running since 2016 between U.S. and Sri
+Lankan researchers in nephrology, pathology, molecular biology, and
+environmental geochemistry. I joined as the biostatistician in 2022.
 
 ## What I take from it
 
 A single reported definition of rapid decline hides a decision that changes the
 answer. Reporting the sensitivity of a finding to model class is cheap, and in
-this setting it is more informative than the point estimate.
+this setting it is more informative than the point estimate. The practical aim
+is a method a clinician can actually use: identifying who is declining quickly,
+early enough for it to matter.
