@@ -8,9 +8,14 @@ category: work
 related_publications: true
 ---
 
-Prolonged QTc is a marker of arrhythmia risk. In sickle cell disease it is
-common, and the reasons are tangled: anemia, medications, organ damage, and
-genetic variation all plausibly contribute, and they co-occur.
+Prolonged QTc is a marker of arrhythmia risk, and sudden cardiac death is a real
+threat in sickle cell disease. The reasons are tangled: anemia, medications,
+organ damage, and genetic variation all plausibly contribute, and they co-occur.
+
+This work began at the University of Mississippi Medical Center, in a state
+where a largely rural, lower-income population had long been underrepresented in
+clinical research — and where sickle cell disease, which disproportionately
+affects African Americans, was correspondingly understudied.
 
 ## The question
 
@@ -30,16 +35,28 @@ J. F. Maher I ran a sensitivity analysis excluding the six adult diuretic users.
 Six is a small number, which is exactly why it warranted checking rather than
 assuming.
 
+Adults and children turned out not to look the same. In adults, QTc tracked with
+sex, diuretic use, QRS duration, serum ALT, anion gap, and diastolic blood
+pressure; in children, with younger age and serum bicarbonate and creatinine.
+Higher hemoglobin was associated with shorter QTc in both. The factors driving
+risk in this population differed from those in the general African American
+population the reference model was built on — which is the finding that made the
+external comparison worth doing.
+
 ## Surrounding work
 
-Two related studies came out of the same program at the University of
-Mississippi Medical Center:
+Two related studies came out of the same NIH-supported program:
 
-- Genetic variants and effect modifiers of QT prolongation in sickle cell
-  disease {% cite zhang2024genetic %}
-- Amino acid signatures during sickle cell pain crisis, pointing to alterations
-  in nitric oxide and energy metabolism, analyzed by partial least
-  squares-discriminant analysis {% cite zhou2022aminoacid %}
+- **Genetic variants and QT prolongation** {% cite zhang2024genetic %}. We built
+  an unweighted polygenic risk score to capture the combined effect of multiple
+  variants, and found that serum ALT modified it: the genetic signal was visible
+  in patients with normal ALT but not in those with elevated ALT, implicating
+  liver health in cardiac risk.
+- **Amino acid signatures during pain crisis** {% cite zhou2022aminoacid %}.
+  Comparing 29 patients in vaso-occlusive crisis against 29 in steady state by
+  partial least squares-discriminant analysis, amino acids in the nitric oxide
+  pathway (arginine, citrulline, ornithine) and in energy metabolism fell during
+  crisis, while glutamic acid, associated with oxidative stress, rose.
 
 ## Context
 
