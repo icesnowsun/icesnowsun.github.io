@@ -2,7 +2,6 @@
 layout: page
 title: Measuring who a cohort actually represents
 description: A generalizability score for comparing a study sample against the population it claims to describe.
-img: assets/img/project_representativeness.jpg
 importance: 2
 category: work
 related_publications: true
