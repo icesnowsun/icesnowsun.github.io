@@ -2,7 +2,6 @@
 layout: page
 title: Modeling rapid kidney decline in CKDu
 description: Which statistical model you choose changes who counts as a rapid decliner.
-img: assets/img/project_ckdu.jpg
 importance: 1
 category: work
 related_publications: true
