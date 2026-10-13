@@ -2,7 +2,6 @@
 layout: page
 title: Dialysis care — surveillance, vaccination, and access
 description: Trials and national studies on COVID-19 surveillance in dialysis facilities and on where dialysis care is disappearing.
-img: assets/img/project_dialysis.jpg
 importance: 3
 category: work
 related_publications: true
