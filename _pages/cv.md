@@ -121,6 +121,14 @@ events.
 **[Biostats4You](https://biostats4you.umn.edu/founders-board-directors-and-reviewers)** —
 reviewer of biostatistics educational resources, 2023.
 
+### Invited presentations
+
+**Building a Sustainable Career in Collaborative Statistics in 2026: Retention,
+Growth, and Negotiation.** Invited speaker and panelist, Pathways to Promotion
+Committee, American Statistical Association Statistical Consulting Section —
+national webinar and panel with Ryan Peterson (University of Iowa) and Saunak
+Sen (University of Tennessee Health Science Center), 18 November 2026.
+
 ### Selected educational presentations
 
 - **Cosmos: A Collaborative Platform Empowering Healthcare.** Kidney Clinical
