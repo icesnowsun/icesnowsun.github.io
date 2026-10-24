@@ -21,7 +21,7 @@ Visualization.** *Manuscript in preparation.*
 
 ---
 
-### Published
+### Journal publications and preprints
 
 <!-- Search box. Requires bib_search: true in _config.yml (it is, by default). -->
 {% include bib_search.liquid %}
