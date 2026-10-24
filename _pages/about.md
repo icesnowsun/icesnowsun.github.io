@@ -19,7 +19,7 @@ social: true # icons from _data/socials.yml
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 6
 
 latest_posts:
   enabled: false # no blog
